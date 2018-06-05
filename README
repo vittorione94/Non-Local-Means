@@ -1,5 +1,7 @@
 # Non-local Means
+
 ## Intro
+
 In this project I implemented a non-local mean filtering in a naive way and using integral images. These two methods 
 are both explained in the papers : 
 

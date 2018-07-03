@@ -15,7 +15,7 @@ The non local-means algorithm is used to remove noise from an image. We have in 
 2. A kernel of size k x k
 3. A window of size w x w
 
-![Alt text](./img.jpg?raw=true "Example")
+![Alt text](./alleyNoisy_sigma20_copy.png?raw=true "Example")
 
 
 for each pixel in the image (that we are going to denoise) we center the window around it, usually the window is reasonably big but of course not as big as the entire image for performance reasons.

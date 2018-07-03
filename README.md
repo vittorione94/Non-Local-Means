@@ -5,8 +5,9 @@
 In this project I implemented a non-local mean filtering in a naive way and using integral images. These two methods 
 are both explained in the papers : 
 
-1. 
-2. 
+1. Non-Local Means Denoising
+2. Integral Images for Block Matching
+
 ## Description
 
 The non local-means algorithm is used to remove noise from an image. We have in input three things: 
@@ -34,4 +35,4 @@ We can speed up computations because of the formula :
 
 ## How to use the code  
 
-Just open Matlab and run the NonlocalMeans.m file
+Just open Matlab and run the nonLocalMeans.m file for the integral images implemenatation and the nonLocalMeansWithoutIntegral.m for the naive version. Note that without the boost provided by the integral images the naive version will be quite slow :) .
